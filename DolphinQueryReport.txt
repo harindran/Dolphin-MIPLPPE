@@ -1,0 +1,8 @@
+
+For Prepaid:
+
+SELECT T0.[U_ExpType], T1.[U_NoofDays], T1.[U_PostAmt], T1.[U_PrpdRent], T1.[U_ExpDays], T1.[U_Blncdays], T1.[U_NoofDays], T0.[U_TotAmt] FROM [dbo].[@MIPLJEP]  T0 , [dbo].[@MIPLJEP1]  T1 WHERE T0.[U_ExpType] =[%0]
+
+For Provision:
+
+SELECT T0.[U_ExpType], T0.[U_TotAmt], T1.[U_NoofDays], T1.[U_Postout], T1.[U_EMPCode], T1.[U_EMPName], T1.[U_Basic] FROM [dbo].[@MIPLJEPO]  T0 , [dbo].[@MIPLJEPO1]  T1 WHERE T0.[U_ExpType] =[%0]

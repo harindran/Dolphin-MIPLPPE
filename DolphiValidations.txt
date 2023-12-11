@@ -1,0 +1,9 @@
+Description Required in Provision
+Ledger Auto load in lines
+Provision - field for Type(Employee, Vehicle, Customer, others)
+Auto Add Row
+Select All Option Req
+Prepaid - field for Type(Employee, Vehicle, Customer, others)
+DocDate is the Posting Date for JE
+
+Validations
